@@ -1,0 +1,167 @@
+html {
+  background-color: #1e1e1e;
+  scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+.Navigate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigate :hover{
+  color: #f4c700;
+}
+
+
+.NavigateFont{
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  border-style: none;
+  background-color: #1e1e1e;
+}
+
+.WebstackStart{
+  display: inline-block;
+  margin-left: 380px;
+  margin-top: 100px;
+  height: 1042px;
+}
+
+.WebstackStartSchrift{
+  overflow: hidden;
+  white-space: nowrap;
+  animation:
+  typing 1s steps(9, end) forwards;
+  font-family: 'Rubik', sans-serif;
+  font-size: 110px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.WebstackSpan{
+  color: white;
+}
+
+.WebstackH1{
+  color: #f4c700;
+}
+
+.LoginPage{
+  height: 1042px;
+  background-color: #f7e94b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  /*
+  background-image: url("LoginBackground.svg");
+  background-repeat: repeat;
+  background-position: center;
+  */
+}
+
+.tab{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-top: 25px;
+}
+
+.LoginWindow{
+  background-color: #282c34;
+  width: 450px;
+  height: 650px;
+  border-radius: 80px;
+}
+
+.LoginTabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.tab button{
+  font-size: 20px;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-color: #282c34;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab button.active {
+  border-color: #282c34;
+  border-bottom-color: #f4c700;
+  border-style: solid;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.marginleft30{
+  margin-left: 30px;
+}
+
+.FormStyle{
+
+}
+
+.FormStyle input{
+  width: 300px;
+  height: 20px;
+  background-color: #282c34;
+  margin-top: 5px;
+  border-style: solid;
+  border-color: #282c34;
+  border-bottom-color: #f4c700;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.FormStyle input.active{
+  border-bottom-color: #f4c700;
+}
+
+.FormStyle button{
+  margin-top: 50px;
+  width: 260px;
+  height: 35px;
+  background-color: #697575;
+  border-style: solid;
+  border-color: #black;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.FormStyle button:hover{
+  border-color: #f4c700;
+}
+
+.FormularButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
